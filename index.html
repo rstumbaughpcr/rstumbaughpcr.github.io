@@ -1,0 +1,160 @@
+<html>
+	<head>
+		<title>Personal Creative Reflection</title>
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,800' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+		<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+    	<div class="main" id="cover">
+			<div id="title">
+				TIME
+			</div>
+			<div id="desc">
+				<span style="font-family:'Lato',sans-serif;font-weight:800;">Ryan Stumbaugh</span><br>Attractive. Intelligent. Innovative.
+			</div>
+		</div>
+
+		<div id="contents" class="main">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1>Table of Contents</h1>
+					</div>
+				</div>
+		        <div class="row">
+		            <div class="col-sm-6">
+		            	<div class="row">
+		                    <div class="col-sm-4 internal twothird">
+		                    	<div id="about_me">
+		                    		<div>
+		                    			<h4>About Me</h4>
+		                    		</div>
+		                    	</div>
+		                    </div>
+		                    <div class="col-sm-8">
+			                    <div class="row">
+			                        <div class="col-sm-12 internal onethird">
+			                        	<div id="new_york">
+				                    		<div>
+				                    			<h4>New York City</h4>
+				                    		</div>
+				                    	</div>
+			                        </div>
+			                    </div>
+			                    <div class="row">
+			                        <div class="col-sm-12 internal onethird">
+			                        	<div id="readings">
+				                    		<div>
+				                    			<h4>Readings</h4>
+				                    		</div>
+				                    	</div>
+			                        </div>
+			                    </div>
+			                </div>
+		                </div>
+		                <div class="row">
+		                    <div class="col-sm-8 internal onethird">
+		                    	<div id="team_adventure">
+		                    		<div>
+		                    			<h4>Team Adventure</h4>
+		                    		</div>
+		                    	</div>
+		                    </div>
+		                    <div class="col-sm-4 internal onethird">
+		                    	<div id="events">
+		                    		<div>
+		                    			<h4>Events</h4>
+		                    		</div>
+		                    	</div>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="col-sm-3">
+		                <div class="row">
+		                	<div class="col-sm-6 internal onethird">
+		                		<div id="bloomberg_videos">
+		                			<div>
+		                				<h4>Bloomberg Videos</h4>
+		                			</div>
+
+		                		</div>
+		                	</div>
+		                	<a href="https://linkedin.com/in/rstumbaugh" target="_blank" style="color:#D91E18">
+			                    <div class="col-sm-6 internal onethird">
+			                    	<div id="linkedin">
+			                    		<div>
+			                    			<h4>LinkedIn Profile</h4>
+			                    		</div>
+			                    	</div>
+			                    </div>
+			                </a>
+		                </div>
+		                <div class="row">
+		                    <div class="col-sm-12 internal twothird">
+		                    	<div id="classes">
+		                    		<div>
+		                    			<h4>Class Sessions</h4>
+		                    		</div>
+		                    	</div>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="col-sm-3">
+		            	<div class="row">
+		            		<div href="section.html" class="col-sm-12 internal threethird">
+			            		<div id="synthesis">
+			            			<div>
+			            				<h4>Synthesis</h4>
+			            			</div>
+			            		</div>
+			            	</div>
+		            	</div>
+		            </div>
+		        </div>
+	        </div>
+	    </div>
+
+	    <!-- INSERT CONTENT SHIT (MAYBE?) -->
+	    <div id="sectionwrap">
+		    <div id="section">
+		    	<div id="section-header"><h1></h1></div>
+	            <div class="container" style="width: 70%">
+	            </div>
+	        </div>
+	    </div>
+    </body>
+
+
+    <script src="js/jquery-1.11.0.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/Sections.js"></script>
+	<script src="js/script.js"></script>
+
+	<script>
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+</html>

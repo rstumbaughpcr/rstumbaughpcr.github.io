@@ -1,0 +1,9 @@
+Hi, I'm Ryan Stumbaugh. I'm a current freshman Computer Science major at the University of Maryland and a member of College Park Scholars - Business, Society, and the Economy. I've been learning programming both in and out of school for the past 4 years and really love to work on independent coding projects and anything that I might find interesting or be able to learn from. A few of my projects include a Battleship game, a realistic solar system simulator, and even this website. In addition to all entries in this reflection, I wrote the code for this website to give myself more freedom over style, layout, and design of the site. Here's a snippet of code that involves the layout and loading of all the stories...
+
+<div class="row">
+	<div class="col-sm-6"><img src="img/about/code2.png" style="height:500px"></div>
+</div>
+
+Though I'm not a business major, I still chose BSE as my first choice when picking which Scholars program to enroll in. No matter where I end up working, whether it be in software engineering or some other field, I will need to have some business knowledge to monetize my skills and be more than just a "code monkey." That is, I would like to be able to provide insight into business strategies and concepts and think about how my code can help the business rather than type away at whatever project has been assigned to me. Any software engineering job I get will undoubtedly be for some kind of business, so it definitely can't be anything other than helpful to have some knowledge about business and innovation.
+
+If you've managed to find this page, then you will have no problem finding all other entries in this PCR. To get back to the Home Page and Table of Contents, simply click the big Table of Contents button at the bottom of this page, which will take you back to the links to all other entries. Thanks for reading and enjoy!
